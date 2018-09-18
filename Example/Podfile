@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HYRefreshKit_Tests' do
+  pod 'HYRefreshKit', :path => '../'
+  
+  
+end
