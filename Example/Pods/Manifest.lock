@@ -1,0 +1,16 @@
+PODS:
+  - HYRefreshKit (0.1.0)
+
+DEPENDENCIES:
+  - HYRefreshKit (from `../`)
+
+EXTERNAL SOURCES:
+  HYRefreshKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HYRefreshKit: aebd9a642c14dbf22499bbb4144560f2be65adf8
+
+PODFILE CHECKSUM: 2cdfeb80d15dc870646347b38c897e962ffd2358
+
+COCOAPODS: 1.4.0

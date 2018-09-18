@@ -1,0 +1,6 @@
+framework module HYRefreshKit {
+  umbrella header "HYRefreshKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
