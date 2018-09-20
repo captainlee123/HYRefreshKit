@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		458C6783A1F3BA11519B94C13E0E746D /* HYRefreshKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C3625928842213564C5A1282EACDB5 /* HYRefreshKit-dummy.m */; };
-		490385F9436536F409694A9D403B704E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 15578F198628F2950D264694376C942C /* ReplaceMe.m */; };
 		5DA40170B2C52B2A9191C286D68BC6EA /* HYRefreshKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C3C9631CF2ED817F7A67374403E526 /* HYRefreshKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62A2B50C8BD9854B44B274BE617DD422 /* Pods-HYRefreshKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC4C385347FFBCFAAAAED6BB3255F19 /* Pods-HYRefreshKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD75CAC79E26CAE974E9B75D6E43C717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -28,11 +27,10 @@
 
 /* Begin PBXFileReference section */
 		12DA11ADA22DF58B70AECCCFA25E6269 /* Pods-HYRefreshKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYRefreshKit_Tests.modulemap"; sourceTree = "<group>"; };
-		15578F198628F2950D264694376C942C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HYRefreshKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		1840D56E97E4DD71AB348A976DD58197 /* Pods-HYRefreshKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYRefreshKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		1E630D5F35A43C5D46C799C665C5472F /* HYRefreshKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYRefreshKit.framework; path = HYRefreshKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E630D5F35A43C5D46C799C665C5472F /* HYRefreshKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYRefreshKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21DCAAAA5AA21AF42DC01316D39CB7FE /* HYRefreshKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYRefreshKit-prefix.pch"; sourceTree = "<group>"; };
-		2281D3DD092B2F30597CF42E276F074C /* HYRefreshKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYRefreshKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2281D3DD092B2F30597CF42E276F074C /* HYRefreshKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HYRefreshKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		258311E9674043626750619734F48014 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CBF1AE85E4E94E490EA1517BD9D9693 /* HYRefreshKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYRefreshKit.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -40,15 +38,15 @@
 		812655CE629459384DA4CD14A001560A /* Pods-HYRefreshKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYRefreshKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90C3C9631CF2ED817F7A67374403E526 /* HYRefreshKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYRefreshKit-umbrella.h"; sourceTree = "<group>"; };
 		9266C660E300C8D48F9043A070830EE9 /* Pods-HYRefreshKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYRefreshKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F3EF41B3C3EFB4CDE25F573B9D7F6C5 /* Pods-HYRefreshKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYRefreshKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB98DB66BA3C7147612DAF48A9C3CB40 /* Pods-HYRefreshKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYRefreshKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AFC4C385347FFBCFAAAAED6BB3255F19 /* Pods-HYRefreshKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYRefreshKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B38DC1D41CA9218BEEB774B9320DF262 /* HYRefreshKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYRefreshKit.modulemap; sourceTree = "<group>"; };
-		B6220078E78360514A6E128BDF86155B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6220078E78360514A6E128BDF86155B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D52B7060D5FE935D62CDC7F256DAF064 /* Pods-HYRefreshKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYRefreshKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DA3610E3D74AD8F1AD60F65EB8D19F27 /* Pods_HYRefreshKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYRefreshKit_Tests.framework; path = "Pods-HYRefreshKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF7E98C70DB27285DE23B06C3AC53568 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DA3610E3D74AD8F1AD60F65EB8D19F27 /* Pods_HYRefreshKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYRefreshKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7E98C70DB27285DE23B06C3AC53568 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ED9C0E9438DE173BFED6427CB8C200CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6A27D7F41080509B645711891CD1F3D /* Pods-HYRefreshKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYRefreshKit_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,7 +158,6 @@
 		E302C0A530E24B91F7E03A47CB52534C /* HYRefreshKit */ = {
 			isa = PBXGroup;
 			children = (
-				15578F198628F2950D264694376C942C /* ReplaceMe.m */,
 				E308F20E9DEC33C656026324C52981C3 /* Pod */,
 				1D20AC93A705D2A7FB54F22DBF75ADEA /* Support Files */,
 			);
@@ -268,7 +265,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				458C6783A1F3BA11519B94C13E0E746D /* HYRefreshKit-dummy.m in Sources */,
-				490385F9436536F409694A9D403B704E /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
