@@ -7,7 +7,6 @@
 //
 
 #import "HYLoadMoreTableView.h"
-#import "HYCommonTool.h"
 
 #define FOOTER_VIEW_HEIGHT          40.0f
 
